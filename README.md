@@ -1,110 +1,11 @@
-# Training: DOM Events & jQuery
+# Ryan Johnson
+## _Training - Javascript functions_
 
-In this training, you'll practice with some of the most common DOM events in jQuery:
+### What is this?
+This is the completed version of <a href="https://github.com/sf-wdi-34/jquery-events-training">this assignment</a> that was prepared by Ryan Johnson.
 
-- ready
-- submit
-- change
-- click
-- keypress
+### Reflection on this assignment
 
-The `.ready` method is specific to jQuery and uses a few native JavaScript event types internally. The other events listed are all native JavaScript events, and we recommend you use them with jQuery's `.on`.
+This assignment was challenging but fun.  I can see the utility of many of these skills which kept me motivated to move through all of the assignments.  I completed the first four with only a few issues, but the last one was a bit more challenging.  Together with Zach, Amber, and Mike, I was able to figure out how to use keypresses to make the code work.
 
-You can find a full list of `event`-related methods in [jQuery's event documentation](http://api.jquery.com/category/events/). For a list of standard JavaScript events, check [MDN's event reference](https://developer.mozilla.org/en-US/docs/Web/Events).
-
-## Instructions:
-
-Fork this repository to your GitHub account, then clone your GitHub copy onto your computer.
-
-* Each event has its own directory with HTML, CSS, and JavaScript files.  Start each event page by opening its HTML file in your browser.  
-* Read the descriptions below (and the existing HTML and JavaScript) for each event page. To meet the goals, you'll need to change each `base.js` file. Do not change the HTML files.  
-* Make sure to keep your developer console open so that you can check for bugs!  
-* Make at least one git commit for each page.  
-
-### `ready`
-
-**Get the page to say "Go!" without touching the html.**
-
-<img width="450" alt="ready screenshot" src="https://cloud.githubusercontent.com/assets/3254910/17784989/b54a1bdc-6533-11e6-8ca6-abf9a892ff74.png">
-
-<hr>
-
-### `submit`
-
-
-**Stop the forms from submitting.**
-
-<img width="450" alt="submit" src="https://cloud.githubusercontent.com/assets/3254910/17784969/a63343c6-6533-11e6-977e-b3ac4779fe2c.png">
-
-
-+ That's weird. Why does one button reload the same page and the other redirect to youtube?  
-
-+ Hmm... What is the "?" doing in the URL? How did it get there? Try removing it.  
-
-Stretch: Instead of just stopping the forms, make it so that clicking the submit buttons adds an embedded youtube video to the page.
-
-
-<hr>
-
-
-### `change`
-
-<img width="450" alt="change solution screenshot" src="https://cloud.githubusercontent.com/assets/3254910/17784718/57714ca2-6532-11e6-90ca-4c161c7aa6ff.png">
-
-**Addition! Get the total to update whenever you update the numbers.**
-
-Stretch: Add a "reset" button that clears all the inputs.
-
-
-
-<hr>
-
-
-### `click`
-
-
-**Create a list of all the phrases that are clicked.**
-
-<img width="450" alt="click screenshot" src="https://cloud.githubusercontent.com/assets/3254910/17784947/847b6e66-6533-11e6-98db-0e893432ac16.png">
-
-
-Stretch: In addition to listing the phrase I clicked, can you include a timestamp?
-
-
-
-<hr>
-
-
-### `keypress`
-
-**Make a stop watch!**
-
-<img width="450" alt="keypress screenshot" src="https://cloud.githubusercontent.com/assets/3254910/17785026/e7f1ecfe-6533-11e6-922c-e0481692a1ad.png">
-
-When the user hits spacebar, record their "start" time.
-
-The next time they hit the spacebar again, record their new "end" time.  
-
-Then, calculate the time difference, and display it on the page.
-
-Stretch: update the display to show the time while the clock is running. 
-
-
-
-<hr>
-
-
-###Wrap it Up
-
-Recommended: Can you link all the pages together? Create a `<nav>` element on every page, with links to all the other pages.
-
-
-
-<hr>
-
-
-### Deliverables
-
-1. When you wrap up work, edit this README to include your name, a link to the original repository, and a 3-5 sentence reflection on completing this assignment. Push your updates to GitHub.
-
-1. Choose one of the event types we've looked at or another you'd like to try, and implement it on your website.
+Also...literally as I was typing this readme, Amber and I noticed that there was a Stretch Challenge that was much harder than everything we had done previously. We were able to get the site to count live, but couldn't get it to stop on the second keypress.  After much discussion, and a few different failed attempts, we finally got it to work, though we used a different method than what the solutions suggested.

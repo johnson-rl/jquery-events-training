@@ -1,5 +1,5 @@
 # Ryan Johnson
-## _Training - Javascript functions_
+## _Training - JQuery Events Training_
 
 ### What is this?
 This is the completed version of <a href="https://github.com/sf-wdi-34/jquery-events-training">this assignment</a> that was prepared by Ryan Johnson.
